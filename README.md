@@ -74,6 +74,10 @@ build now
 
 (Delete previous container, `docker kill container name`, `docker rm container name`)
 
+`apt install docker-compose -y`
+
+(IMP = ID --> dockerHub, docker-hub username & pw)
+
   - goto jenkins dashboard
   - click create new item
   - define your project name
