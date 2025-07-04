@@ -18,6 +18,7 @@ Deploy :-
 
 `node app.js`
 
+(If you want to use CI_cd as automatic way , then set-up github-jenkins integration)
 
 ### freestyle docs(on container)
 
@@ -47,5 +48,6 @@ Go to configure --- build step --- execute shell
 
 build now
 
+(If you want to use CI_cd as automatic way , then set-up github-jenkins integration)
 
 -----
