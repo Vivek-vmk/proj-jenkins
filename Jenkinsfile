@@ -5,7 +5,7 @@ pipeline {
         stage('code clone') {
             steps {
                 echo "Repository has been cloned successfully"
-                git url: "https://github.com/ofc365/proj-jenkins.git"
+                git url: "https://github.com/ofc365/proj-jenkins-git-docker.git"
             }
         }
         stage('code build') {
