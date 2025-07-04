@@ -51,3 +51,36 @@ build now
 (If you want to use CI_cd as automatic way , then set-up github-jenkins integration)
 
 -----
+
+
+
+### Pipeline docs(on Container)
+
+(Delete previous container, `docker kill container name`, `docker rm container name`)
+
+  - goto jenkins dashboard
+  - click create new item
+  - define your project name
+  - select PIPELINE project
+  - mention github project section : your github repo url
+  - use jenkins file for docker only
+  - build now
+  - `docker ps -a`
+
+(Access webapp)
+
+
+### Pipeline docs(on Container)
+
+(Delete previous container, `docker kill container name`, `docker rm container name`)
+
+  - goto jenkins dashboard
+  - click create new item
+  - define your project name
+  - select PIPELINE project
+  - mention github project section : your github repo url
+  - use jenkins file for docker-compose only
+  - build now
+  - `docker ps -a`
+
+(Access webapp)
