@@ -29,7 +29,7 @@ Deploy :-
   - Go to configure --- build step --- execute shell
 
 `docker build -t myimg  .`
-`docker run -itd --name cont1 -p 8000:8000 myimg:latest
+`docker run -itd --name cont1 -p 8000:8000 myimg:latest`
 
   - build now
   - `docker ps -a`
