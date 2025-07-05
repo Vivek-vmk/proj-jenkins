@@ -24,6 +24,8 @@ Deploy :-
 
 `apt install docker.io -y`
 
+`usermod -aG docker ubuntu`
+
   - goto jenkins dashboard
   - click create new item
   - define your project name
