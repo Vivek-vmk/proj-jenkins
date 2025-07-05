@@ -53,8 +53,8 @@ USING COMPOSE :-
 
 Go to configure --- build step --- execute shell
 
-`docker compose down`
-`docker compose up -d`
+`docker-compose down`
+`docker-compose up -d`
 
 build now
 
