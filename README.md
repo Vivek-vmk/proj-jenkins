@@ -22,6 +22,8 @@ Deploy :-
 
 ### freestyle docs(on container)
 
+`apt install docker.io -y`
+
   - goto jenkins dashboard
   - click create new item
   - define your project name
