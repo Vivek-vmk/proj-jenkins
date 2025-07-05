@@ -24,7 +24,7 @@ Deploy :-
 
 `apt install docker.io -y`
 
-`usermod -aG docker ubuntu`
+`usermod -aG docker ubuntu` ----> (You need to logout and login back for the changes to be reflected.)
 
   - goto jenkins dashboard
   - click create new item
