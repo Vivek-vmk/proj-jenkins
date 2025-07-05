@@ -24,9 +24,9 @@ Deploy :-
 
 `apt install docker.io -y`
 
-`usermod -aG docker ubuntu` ----> (You need to logout and login back for the changes to be reflected.)
 
 ```
+sudo usermod -aG docker ubuntu
 sudo usermod -aG docker jenkins
 sudo systemctl restart docker
 sudo systemctl restart jenkins
@@ -53,8 +53,8 @@ USING COMPOSE :-
 
 Go to configure --- build step --- execute shell
 
-`docker compose down`
-`docker compose up -d`
+`docker-compose down`
+`docker-compose up -d`
 
 build now
 

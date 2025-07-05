@@ -33,6 +33,8 @@ pipeline {
             steps {
                 echo "The application has been successfully deployed inside the container"
                 sh "docker-compose down && docker-compose up -d"
+            }
+        }
     }
 }
 
