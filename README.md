@@ -24,9 +24,9 @@ Deploy :-
 
 `apt install docker.io -y`
 
-`usermod -aG docker ubuntu` ----> (You need to logout and login back for the changes to be reflected.)
 
 ```
+sudo usermod -aG docker ubuntu
 sudo usermod -aG docker jenkins
 sudo systemctl restart docker
 sudo systemctl restart jenkins
