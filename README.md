@@ -26,6 +26,12 @@ Deploy :-
 
 `usermod -aG docker ubuntu` ----> (You need to logout and login back for the changes to be reflected.)
 
+```
+sudo usermod -aG docker jenkins
+sudo systemctl restart docker
+sudo systemctl restart jenkins
+```
+
   - goto jenkins dashboard
   - click create new item
   - define your project name
