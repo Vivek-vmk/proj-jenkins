@@ -2,6 +2,6 @@ version : "3.3"
 
 services : 
   web : 
-    image : 
+    image : "vivek27vinz/myimg:latest"
     ports : 
         - "8000:8000"
